@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+
+    body{
+      background-color: #D6E1EF;
+    }
+
+    .container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card{
+      background-color: white;
+      width: 350px;
+      height: 580px;
+      border-radius: 15px;
+      padding: 15px;
+
+      box-shadow: 2px 18px 16px 1px rgba(0,0,0,0.12);
+-webkit-box-shadow: 2px 18px 16px 1px rgba(0,0,0,0.12);
+-moz-box-shadow: 2px 18px 16px 1px rgba(0,0,0,0.12);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 15px;
+    }
+
+    h1{
+      color: #2F3E56;
+      font-weight: bold;
+      font-family: 'Tilt Neon', cursive;
+      font-size: 28px;
+      text-align: center;
+      padding: 0 15px;
+    }
+
+    p {
+      color: #B2B5BC;
+      font-weight: bold;
+      font-family: 'Tilt Neon', cursive;
+      font-size: 18px;
+      text-align: center;
+      padding: 0 15px;
+    }
+
+    @media (max-width: 480px) {
+      .container{
+        padding: 0 20px;
+      }
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="card">
+      <img src="images/image-qr-code.png" alt="">
+      <h1> Improve your front-end skills by building projects </h1>
+
+      <p> Scan the QR code to visit Frontend Mentor and take your coding skills to the next level </p>
+    </div>
+  </div>
+
+</body>
+</html>
